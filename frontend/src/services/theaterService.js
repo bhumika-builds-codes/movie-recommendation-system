@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/theaters";
+const BASE_URL = "http://https://movie-recommendation-system-pfp0.onrender.com/api/theaters";
 
 export const getNearbyTheaters = async (lat, lon) => {
   const response = await axios.get(`${BASE_URL}/nearby`, {

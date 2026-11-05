@@ -1,7 +1,7 @@
 import api from "./api";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "http://https://movie-recommendation-system-pfp0.onrender.com/api";
 
 export const searchMovies = async (query) => {
   const response = await api.get(`/search?query=${query}`);

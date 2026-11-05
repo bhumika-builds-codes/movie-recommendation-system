@@ -21,7 +21,7 @@ const SearchBar = ({
       setError("");
 
       const res = await axios.get(
-        `http://localhost:5000/api/theaters/city?city=${city}`
+        `http://https://movie-recommendation-system-pfp0.onrender.com/api/theaters/city?city=${city}`
       );
 
       navigate("/theaters/results", {

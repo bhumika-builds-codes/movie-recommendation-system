@@ -10,7 +10,7 @@ const HeroBanner = () => {
 
   const fetchFeaturedMovie = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/featured");
+      const res = await axios.get("http://https://movie-recommendation-system-pfp0.onrender.com/api/featured");
 
       if (res.data.success) {
         setMovie(res.data.movie);

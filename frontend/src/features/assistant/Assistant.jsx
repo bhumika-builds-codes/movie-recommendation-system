@@ -231,7 +231,7 @@ const Assistant = ({ isOpen, onClose }) => {
       );
 
       const response = await fetch(
-        "http://localhost:5000/api/assistant",
+        "http://https://movie-recommendation-system-pfp0.onrender.com/api/assistant",
         {
           method: "POST",
 

@@ -984,7 +984,7 @@ Never treat every user message as a completely new conversation.
   }
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const authRoutes = require("./routes/auth");
 const wishlistRoutes = require("./routes/wishlist");
